@@ -12,8 +12,16 @@ interface Product {
   image: string;
 }
 
+// Define RootState for better typing
+interface RootState {
+  filters: {
+    category: string;
+    sort: "asc" | "desc" | "";
+  };
+}
+
 export default function ProductList() {
-  const { category, sort } = useSelector((state: any) => state.filters);
+  const { category, sort } = useSelector((state: RootState) => state.filters);
   const [products, setProducts] = useState<Product[]>([]);
   const [page, setPage] = useState(1);
 
