@@ -43,5 +43,7 @@ npm run dev
 ### Mobile View
 ![Mobile Catalog](public/assets/Mobile-view.png)
 
+## Demo Video
+[Watch the Demo Video](https://drive.google.com/drive/folders/1xxhjqww1ZsB2CHf6EKq5stf__kosSv9Z?usp=sharing)
 
-```
+
